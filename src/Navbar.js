@@ -18,6 +18,9 @@ export class Navbar extends Component {
         this.closeSnackbar = this.closeSnackbar.bind(this);
     }
     
+
+
+    
     handleFormatChange(e){
         this.setState({format: e.target.value, open: true});
         this.props.handleChange(e.target.value);

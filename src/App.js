@@ -15,7 +15,6 @@ import React, { Component } from 'react'
     });
     console.log(id);
   }
-
   render() {
     return (
       <Switch>
