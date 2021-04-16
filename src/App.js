@@ -32,6 +32,11 @@ import React, { Component } from 'react'
               )} 
             />}
         />
+        <Route
+          exact
+          path='/palette/:paletteId/:colorId'
+          render={() =><h1>Single Color Page</h1>}
+        />
       </Switch>
     )
   }
